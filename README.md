@@ -9,14 +9,15 @@ This repository gives an overview of how we can design an electronic claims proc
 ### Project setup:
 1. Activate virtual env
 2. Make source root directory as: C:\office\rohit-workspace\motor_insurance_processing\src
-3. Export:
+3. Install Python packages: pip install requirements.txt
+4. Export:
    1. Windows: $env:PYTHONPATH = "C:\office\rohit-workspace\motor_insurance_processing\src"
    OR set PYTHONPATH=C:\office\rohit-workspace\motor_insurance_processing\src
    2. 
      cd motor_insurance
      set FLASK_APP=app.py
      echo %FLASK_APP%
-4. For running migrations:
+5. For running migrations:
    1. flask db init
    2. flask db migrate -m "Initial migration"
    3. flask db upgrade
