@@ -23,14 +23,60 @@ This repository gives an overview of how we can design an electronic claims proc
 
 ### Directory Structure:
 ```
-└───src
-    └───motor_insurance
-        ├───auth
-        ├───controllers
-        ├───migrations
-        │   └───versions
-        ├───models
-        └───services
+- motor_insurance/
+  - auth/
+    - authentication.py
+    - authorization.py
+  - controllers/
+    - accident_controller.py
+    - adjustor_controller.py
+    - assessment_controller.py
+    - case_controller.py
+    - case_manager_report_controller.py
+    - claim_controller.py
+    - customer_controller.py
+    - document_controller.py
+    - notification_controller.py
+    - payment_controller.py
+    - policy_controller.py
+    - regional_manager_report_controller.py
+    - service_station_controller.py
+    - surveyor_controller.py
+    - top_management_report_controller.py
+    - workshop_controller.py
+
+  - models/
+    - accident.py
+    - adjustor.py
+    - assessment.py
+    - case.py
+    - case_manager_report.py
+    - claim.py
+    - customer.py
+    - document.py
+    - notification.py
+    - payment.py
+    - policy.py
+    - regional_manager_report.py
+    - service_station.py
+    - surveyor.py
+    - top_management_report.py
+    - workshop.py
+
+  - services/
+    - assessment_service.py
+    - case_service.py
+    - claim_service.py
+    - customer_service.py
+    - payment_service.py
+    - surveyor_service.py
+    - workshop_service.py
+
+  - alembic.ini
+  - app.py
+  - base.py
+
+- requirements.txt
 ```
 ### File Description:
 ```
