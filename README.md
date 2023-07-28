@@ -90,6 +90,16 @@ This repository gives an overview of how we can design an electronic claims proc
 flask run
 ```
 
+### Example: To run Flask application using Docker
+```
+# Build the Docker image
+docker build -t flask_app .
+
+# Run the Docker container
+docker run -p 5000:5000 flask_app
+
+```
+
 ### To run test cases
 ```
 
