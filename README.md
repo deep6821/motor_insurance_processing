@@ -76,8 +76,8 @@ This repository gives an overview of how we can design an electronic claims proc
   - alembic.ini
   - app.py
   - base.py
-
-- requirements.txt
+  - Dockerfile
+  - requirements.txt
 ```
 ### File Description:
 ```
